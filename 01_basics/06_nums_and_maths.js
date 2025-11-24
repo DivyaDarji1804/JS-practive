@@ -1,3 +1,13 @@
+// quick notes 
+/*
+learn about basic maths and nums 
+we can uses random in math to generate random num 
+can do sqrt in Math.sqrt 
+in js can convert num to str
+we can fix floating num also 
+
+*/ 
+
 // let score = 264;
 // console.log(score);
 // const balance = new Number(100);
