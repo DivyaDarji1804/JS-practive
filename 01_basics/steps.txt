@@ -6,5 +6,4 @@ Here is how to create in git :
 4. than create a folder then code 
 5. after code and test go for source control and then commit and push 
 6. after it will be on the repo 
-   and then make sure to close codespace as per guidance of hitesh sir from chai and code
-   
+   and then make sure to close and delete codespace as per guidance of hitesh sir from chai and code
