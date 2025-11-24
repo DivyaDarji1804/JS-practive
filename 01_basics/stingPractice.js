@@ -1,8 +1,18 @@
 // in following file mentioned of the string and its different functions and methods most are method except the .length 
 // reference is w3 school and chai aur code 
 
+/*
+quick note 
+.length : give total length of str
+concat : to join multiple string 
+splice substring : to get specific string char
+trim : to remove space 
+replace: to replace a string or word 
+isWellFormed  check if it is structured
+repeat : repeat word 
+indexOf : find the index of word
 
-
+*/
 // let str1 = `Hello world`;
 
 // console.log(str1);
@@ -108,3 +118,15 @@
 // split(",")
 // split(" ")
 // split("|")
+
+
+// let str07 = ` hello there. please find if there is a notebook there.`;
+// console.log(str07.indexOf("there"));
+// console.log(str07.lastIndexOf("there"));
+// console.log(str07.indexOf("there",15));
+
+// console.log(str07.search("there"));
+
+// let str08=`The rain in SPAIN stays mainly in the plain`;
+
+// console.log(str08.match(/ain/gi));
