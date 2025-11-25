@@ -41,8 +41,34 @@ we can fix floating num also
 // console.log(Math.random());
 // console.log((Math.random()*10)+1);
 
-const min =10
-const max =20 
+// const min =10
+// const max =20 
 
 
-console.log(Math.floor(Math.random() * (max -min +1))+ min);
+// console.log(Math.floor(Math.random() * (max -min +1))+ min);
+
+
+// let number1 = -10.24 ;
+// console.log(parseInt(number1));
+// console.log(parseFloat(number1));
+
+// console.log(Number.isInteger(number1));
+// console.log(Number.isFinite(number1));
+// console.log(Number.isNaN(number1));
+
+const x = Number.MAX_SAFE_INTEGER;
+console.log(x);
+
+const y = Number.MIN_SAFE_INTEGER;
+console.log(y);
+
+
+const a = Number.MAX_VALUE;
+const b = Number.MIN_VALUE;
+
+console.log(`a:${a} & b:${b}`);
+
+
+const c = Number.POSITIVE_INFINITY;
+const d = 100 / "Apple";
+console.log(`c:${c}, d : ${d}`);
