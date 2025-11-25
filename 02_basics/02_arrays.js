@@ -1,4 +1,10 @@
-
+/*
+Quick note 
+on second lec understand how to join two arraays through push,concat and through ...
+using flat to devide array into single 
+then use .from to convert into  array 
+.of to make array
+*/
 const indPlayers = [`Sachin`, `Virat`, `Dhoni`];
 const ausPlayers = [`Gilchrist`,'Ponting','Hayden'];
 
