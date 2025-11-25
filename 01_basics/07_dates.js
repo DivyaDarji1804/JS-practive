@@ -1,8 +1,19 @@
-// let myDate = new Date();
-// console.log(myDate.toString());
-// console.log(myDate.toDateString());
-// console.log(myDate.toISOString());
-// console.log(myDate.toJSON());
+/* 
+quick note 
+learn how to create date 
+different date print method 
+such as date sting give in with week name month name year
+we can define date accordingly
+current time stamp 
+
+*/
+
+
+let myDate = new Date();
+console.log(myDate.toString());
+console.log(myDate.toDateString());
+console.log(myDate.toISOString());
+console.log(myDate.toJSON());
 
 // console.log(typeof myDate);
 
