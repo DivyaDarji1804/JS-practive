@@ -1,5 +1,5 @@
 /*
---------- quick notes f both lectures ----------
+--------- quick notes of both lectures ----------
 learn how to crete a funtion 
 how to pass argument 
 how to add if else condition
