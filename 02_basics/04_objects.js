@@ -4,6 +4,7 @@ Created objects learn how to merge two object woth   ... and Object.assign()
 learn object how to find keys and values and entities
  */
 
+// lect 3 notes in last
 
 const  snapUser= new Object(); // singleton object
  snapUser.id= "123abc";
@@ -56,12 +57,44 @@ const users = [
 
 
 // how to get keys from the objects
-console.log(Object.keys(snapUser));
+// console.log(Object.keys(snapUser));
 
-console.log(Object.values(snapUser));
+// console.log(Object.values(snapUser));
 
-console.log(Object.entries(snapUser));
+// console.log(Object.entries(snapUser));
 
-console.log(snapUser.hasOwnProperty('isLoggedIn'));
+// console.log(snapUser.hasOwnProperty('isLoggedIn'));
 
-console.log(Object.keys(snapUser).length);
+// console.log(Object.keys(snapUser).length);
+
+
+
+// ------------------- 3rd lecture of object --------------
+
+/*
+------- quick note -----------
+
+learn how to de structure the object 
+learn api and json basics
+get info about random api and json formatting 
+*/
+
+
+
+
+
+const course ={
+    courseName : "js in hindi",
+    price: 999,
+    courseInstructor : "Hitesh sir"
+};
+
+// de-structure of objects
+
+// const {courseInstructor} = course ;
+// console.log(courseInstructor);
+
+const {courseInstructor : instructor} = course;
+console.log(instructor);
+
+
