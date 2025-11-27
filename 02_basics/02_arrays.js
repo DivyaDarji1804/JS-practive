@@ -2,8 +2,8 @@
 Quick note 
 on second lec understand how to join two arraays through push,concat and through ...
 using flat to devide array into single 
-then use .from to convert into  array 
-.of to make array
+then use Array.from(str_name) to convert into  array 
+Array.of(str_elements) to make array
 */
 const indPlayers = [`Sachin`, `Virat`, `Dhoni`];
 const ausPlayers = [`Gilchrist`,'Ponting','Hayden'];
@@ -36,3 +36,11 @@ console.log(Array.from("Roman"));
 console.log(Array.from({name: "hitesh"})); // cannot convert object directly
 
 console.log(Array.of(indPlayers,ausPlayers));  // it add as elemnt of array wheter it is array or element
+
+
+let str = "hello";
+let mynewArrr = Array.from(str);
+console.log(mynewArrr);
+
+let fruits = Array.of("Banana","Oranges","Kiwi","Apples");
+console.log(fruits);
