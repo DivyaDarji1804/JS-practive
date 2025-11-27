@@ -2,7 +2,12 @@
 learn basic of what is global and local scope 
 also basic of hositing just level of understanding not in code 
 */
-
+ 
+/**
+ * Hoisting is a JavaScript concept where declarations are moved to the top of their scope.
+ Because of this, we can call a function before its declaration.
+ Variables are also hoisted, but var becomes undefined, while let and const cannot be used before declaration.
+ */
 
 
 
