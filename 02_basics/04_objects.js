@@ -1,3 +1,10 @@
+/*
+----- quick notes ---------
+Created objects learn how to merge two object woth   ... and Object.assign()
+learn object how to find keys and values and entities
+ */
+
+
 const  snapUser= new Object(); // singleton object
  snapUser.id= "123abc";
   snapUser.name = "sam";
