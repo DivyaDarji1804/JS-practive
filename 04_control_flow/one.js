@@ -1,7 +1,7 @@
 /*
 -------------- control flow quick notes --------------------------
-learn about if , if-else , 
-watch till 14 mintues
+learn about if , if-else ,  else if ledder 
+control flow learn about how to execute code on particular time 
 */
 
 // const isUserLoggedIn = true;
@@ -18,7 +18,20 @@ watch till 14 mintues
 
 const score = 200;
 
-if (score > 100){
-    const power = 'fly';
-    console.log(`user power : ${power}`);
-}
+// if (score > 100){
+//     const power = 'fly';
+//     console.log(`user power : ${power}`);
+// }
+
+// // implicit scope - avoid to use it 
+//  if (score>120) console.log(`ok`);
+
+// if (score < 100){
+//     console.log(`under hundred`);
+// }
+// else if (score>100 && score<200){
+//     console.log(`a ton`);
+// }
+// else{
+//     console.log(`double hundred!!!!!!!`);
+// }
