@@ -53,7 +53,12 @@ const myObject = {
     game2 : "Mario"
 }
 
-for (const [key,value] of myObject){
-//   console.log(`${key} - ${value}`);
-    console.log()
-}
+// for (const [key,value] of myObject){
+// //   console.log(`${key} - ${value}`);
+//     console.log()
+// }
+
+
+// for (const key in map){
+//     console.log(key);
+// }  // not iterable  in for in loop 
