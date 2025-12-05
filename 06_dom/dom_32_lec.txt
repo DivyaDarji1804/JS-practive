@@ -1,0 +1,38 @@
+created html file 
+use getElementById to get element 
+
+
+document.getElementbyId("").className will give class name
+
+
+first getElementById by id and store it into variable 
+var title = document.getElementById('');
+
+title.style.backgroundColor = 'green'
+it will update color 
+
+
+title.getContent will give content
+
+
+innerContent and innerHTML are different  
+inner content will give content of element 
+innertext will give only one content not inside of it like print only h1 not span on it 
+innerhtml will give content + html like span if avilable
+
+
+document.querySelector('h1') will give first h1 
+document.querySelectorAll('h1') will give all h1 
+
+
+in query selecttor you will get nodelist 
+
+
+inClassname forEach not work like nodeList also nodeList in not array 
+
+
+do convort classname's list to the array using Array.from()
+then use accordingly 
+
+
+dom manupulation is bit easy if you use proper get method like byid or query selector or classname
